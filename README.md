@@ -12,7 +12,10 @@ O projeto tem duas formas de uso:
 
 Os dados vêm do dataset público **TMDB 5000 Movie Dataset** (The Movie Database), com informações de ~5.000 filmes.
 
----
+## 📸 Preview da Interface
+
+
+![Preview do App](print.png)
 
 ## Como o sistema funciona (visão geral)
 
