@@ -12,7 +12,10 @@ O projeto tem duas formas de uso:
 
 Os dados vêm do dataset público **TMDB 5000 Movie Dataset** (The Movie Database), com informações de ~5.000 filmes.
 
----
+## 📸 Preview da Interface
+
+
+![Preview do App](print.png)
 
 ## Como o sistema funciona (visão geral)
 
@@ -111,12 +114,4 @@ O projeto usa o **TMDB 5000 Movie Dataset**, disponível publicamente (ex: no Ka
 O `recomendador.py` junta os dois pela coluna de ID do filme.
 
 ---
-
-## Possíveis melhorias futuras
-
-- Usar `TfidfVectorizer` em vez de `CountVectorizer` para dar menos peso a palavras muito comuns.
-- Dar pesos diferentes para cada campo (ex: gênero e diretor contando mais que a sinopse).
-- Salvar os dados já processados em disco, para não reprocessar tudo a cada execução.
-- Filtrar recomendações por nota mínima do filme (`vote_average`).
-- Buscar o pôster de cada filme através da API do TMDB para exibir na interface.
 
